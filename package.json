@@ -1,0 +1,21 @@
+{
+  "name": "playwright_automation_sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:codegen": "npx playwright codegen",
+    "test": "npx playwright test || npm run posttest",
+     "test:ui": "npx playwright test --ui",
+    "test:chrome": "npx playwright test --project=chromium",
+    "test:debug": "npx playwright test --debug",
+    "test:headed": "npx playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.18"
+  }
+}
